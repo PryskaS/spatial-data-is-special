@@ -16,16 +16,16 @@
   
  * **[Framework]()**: Base inicial para todos os projetos; cuidados para manter a base cartográfica em conformidade com a geomática.
  
-**Representação computacional do Espaço** | notebook | medium
+**Representação computacional do Espaço** | medium
 
   * Níveis de abstração, objetos vs campos, estrutura de dados espaciais, topologia, superposição de planos de informação.
   * Modelagem Numérica de Terreno (MNT): Pontos cotados (z, y, z), isolinhas, malha triangular (TIN), dados altimétricos, shuttle radar topography Mission (SRTM).
 
-**Manipulação de dados geográficos** | notebook | medium
+**Manipulação de dados geográficos** | medium
 
-  *  importar dados matriciais e vetoriais, unir dados espaciais, consulta e edição de atributos, modificar dados (Field Calculator), select by attribute, select by expresso, select by location, criar novas feições, remodelar feições, offset (linhas), cortar feições (split), dividir partes, mesclar feições (merge).
+  *  Importar dados vetoriais e  matriciais, unir dados espaciais por atributo (attribut join) e por localização (spatial join), consulta e edição de atributos, modificar dados (Field Calculator), select by attribute, select by expresso, select by location, criar novas feições, remodelar feições, offset (linhas), cortar feições (split), dividir partes, mesclar feições (merge).
 
-**Fonte de dados** | notebook | medium
+**Fonte de dados** | medium
 
   * Infraestrutura de informação espacial (SDI), padrões OGC (WMS, WFS, WCS), metadados.
 
@@ -33,24 +33,40 @@
 
   * Consistência lógica, consistência tipológica, adequação quanto ao nível de generalização cartográfica empregado.
 
-**Generalização** | notebook | medium
+**Generalização** | medium
 
   * Simplicacação (building, Line, polygon), suavização (smooth), agregação (dissolve, agregaste polygons, Eliminate), fusão (merge divided roads, collapse dual lines), colapso, refinamento.
  
-**Geovizualização** | notebook | medium
+**Geovizualização** | medium
 
   * Forma espacial e modo de implementação, ideia de qualidade (distinção/diferenciação), ideia de quantidade e ordem, classes (intervalos iguais, quantil, desvio padrão, quebras naturais - jernks -, intervalo geométrico, mapas coropláticos e de símbolos proporcionais, cartogramas e cartografia temática, mapas de densidade de pontos e mapas de fluxos, geovisualização multivariada, temporal e de incerteza.
 
-**Análise espacial** | notebook | medium
+**Análise espacial** | medium
 
-  * Estatística espacial vs análise espacial, Análise de eventos pontuais, análise de superfícies por geoestatística linear, análise de superfícies por geoestatística indicadora, análise de dados de área, modelagem dinâmica. ESDA: Exploratory Spatial Data Analysis, Modelos de Regressão Espacial Globais: Spatial Lag e Spatial Error, Modelos de Regressão Espacial Locais: Regimes Espaciais e Regressão Geograficamente Ponderada (GWR), Cluster Analysis. Interpolação, Krigagem, centro médio, distância padrão, elipse de distância padrão, padrões de agregação, vizinho mais próximo, vizinhos naturais (k-means), função K de Ripley (univariada e bivariada), Análise de Lacunaridade, métodos de estimação de kernel e kernel adaptativo,  mapas de proximidade vs mapas de kernel, polígonos de voronoi, triangulação de Deulanay.
+  * **[Abordagens]**: Estatística espacial, análise espacial, econometria espacial e geoestatística.
+  * **[Teste de hipóteses sobre autocorrelação espacial]**:
+  * **[Análise de eventos pontuais]**: Distribuição de Poisson Homogênea - complete spatial randomness (CSR), Método do vizinho mais próximo, Função K de Ripley (univariada e bivariada), estimador de intensidade (Kernel estimation), processo pontual marcado, estudos caso-controle.
+  * **[Análise de superfícies por geoestatística linear]**: modelos determinísticos locais, modelos estatísticos de efeitos locais e globais (krigagem), modelos determinísticos de efeitos globais (superfícies de tendência), semivariograma. 
+  * **[Análise de superfícies por geoestatística indicadora]**: Krigeagem por indicação ordinária, correção dos desvios de ordem, estimativa de incertezas locais, estimadores ótimos para as superfícies interpoladas, incertezas locais para atributos categóricos, classificadores para atributos categóricos, medidas de incerteza para atributos Categóricos.
+  * **[Análise de dados de área]**: Índice de Moran (global e local), índice C de Geary, Variograma, Matrizes de Proximidade Espacial, Média Móvel Espacial.
+  * **[Modelagem dinâmica]**: 
+  * [ESDA: Exploratory Spatial Data Analysis]
+  * [Modelos de Regressão Espacial Globais]: Spatial Lag e Spatial Error
+  * [Modelos de Regressão Espacial Locais]: Regimes Espaciais e Regressão Geograficamente Ponderada (GWR)
+  * [Cluster Analysis]: LISA
+  * Interpolação, Krigagem, centro médio, distância padrão, elipse de distância padrão, padrões de agregação, vizinho mais próximo, vizinhos naturais (k-means), análise de Lacunaridade, métodos de estimação de kernel e kernel adaptativo,  mapas de proximidade vs mapas de kernel, polígonos de voronoi, triangulação de Deulanay.
 
-**Geocodificação de endereços** | notebook | medium 
+**Geocodificação de endereços** | medium 
 
-**GeoWeb/WebGIS** | notebook | medium
+**GeoWeb/WebGIS** | medium
 
-  * Framework para Carto, Kepler, GeoWeb Crawler.
+  * Framework para Carto
+  * Framework para Kepler
+  * GeoWeb Crawler
 
-**Sensoriamento remoto** | notebook | medium
+**Sensoriamento remoto** | medium
 
   * Conceitos básicos e princípios da radiação eletromagnética, níveis de aquisição, sensores, geração de imagem, assinatura espectral x bandas, composições coloridas, resolução espacial, resolução espectral, resolução radiométrica, resolução temporal, comportamento espectral, NDVI, elementos de fotointerpretação, pré-processamento (estatísticas da imagem, transformações lineares e não-lineares), modelos de correção geométrica, mapeamento inverso, reamostragem, erro médio quadrático, qualidade dos pontos, transformações de imagens (fatiamento de histograma, IHS, alterações da componente S, componentes principais, espalhamento bi-dimensional, espalhamentos para imagens correlacionadas e não-correlacionadas, NDWI - Normalized Difference Water index, Fusão, classificação supervisionada e não-supervisionada. 
+
+**Spatio-temporal Data Types** | medium
+
