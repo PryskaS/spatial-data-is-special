@@ -81,5 +81,5 @@
   * NDWI - Normalized Difference Water index, Fusão.
   * Classificação supervisionada e não-supervisionada. 
 
-| **Spatio-temporal Data Types** | 
+| **Spatio-temporal Data Types** |  
 
