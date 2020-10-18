@@ -50,7 +50,7 @@
   * **[Análise de superfícies por geoestatística indicadora]**: Krigeagem por indicação ordinária, correção dos desvios de ordem, estimativa de incertezas locais, estimadores ótimos para as superfícies interpoladas, incertezas locais para atributos categóricos, classificadores para atributos categóricos, medidas de incerteza para atributos Categóricos.
   * **[Análise de dados de área]**: Índice de Moran (global e local), índice C de Geary, Variograma, Matrizes de Proximidade Espacial, Média Móvel Espacial.
   * **[Modelagem dinâmica]**: 
-  * [ESDA: Exploratory Spatial Data Analysis]
+  * [ESDA: Exploratory Spatial Data Analysis].
   * [Modelos de Regressão Espacial Globais]: Spatial Lag e Spatial Error
   * [Modelos de Regressão Espacial Locais]: Regimes Espaciais e Regressão Geograficamente Ponderada (GWR)
   * [Cluster Analysis]: LISA
@@ -66,7 +66,20 @@
 
 | **Sensoriamento remoto** |
 
-  * Conceitos básicos e princípios da radiação eletromagnética, níveis de aquisição, sensores, geração de imagem, assinatura espectral x bandas, composições coloridas, resolução espacial, resolução espectral, resolução radiométrica, resolução temporal, comportamento espectral, NDVI, elementos de fotointerpretação, pré-processamento (estatísticas da imagem, transformações lineares e não-lineares), modelos de correção geométrica, mapeamento inverso, reamostragem, erro médio quadrático, qualidade dos pontos, transformações de imagens (fatiamento de histograma, IHS, alterações da componente S, componentes principais, espalhamento bi-dimensional, espalhamentos para imagens correlacionadas e não-correlacionadas, NDWI - Normalized Difference Water index, Fusão, classificação supervisionada e não-supervisionada. 
+  * Conceitos básicos e princípios da radiação eletromagnética
+  * Níveis de aquisição, sensores, geração de imagem, assinatura espectral x bandas
+  * Composições coloridas 
+  * Resolução espacial, resolução espectral, resolução radiométrica, resolução temporal
+  * Comportamento espectral
+  * NDVI
+  * Elementos de fotointerpretação
+  * Pré-processamento (estatísticas da imagem, transformações lineares e não-lineares)
+  * Modelos de correção geométrica
+  * Mapeamento inverso
+  * Reamostragem, erro médio quadrático, qualidade dos pontos
+  * Transformações de imagens: fatiamento de histograma, IHS, alterações da componente S, componentes principais, espalhamento bi-dimensional, espalhamentos para imagens correlacionadas e não-correlacionadas.
+  * NDWI - Normalized Difference Water index, Fusão.
+  * Classificação supervisionada e não-supervisionada. 
 
 | **Spatio-temporal Data Types** | 
 
