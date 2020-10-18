@@ -10,9 +10,9 @@
 ---
 ### Conteúdo
 
-**Fundamentos de Cartografia para SIG** | medium
+**Cartografia básica** | medium
 
-  * Conceitos básicos de cartografia, Sistema de Informação Geográfica (SIG/GIS), dados espaciais, projeções cartográficas, sistemas de coordenadas, modelos de representação da terra - Datum, sistema de referência de coordenadas. [notebook](https://github.com/PryskaS/spatial-data-is-special/blob/master/1.%20Notebooks/Fundamentos%20de%20Cartografia%20para%20SIG%20I.ipynb)
+  * [Fundamentos conceituais](https://github.com/PryskaS/spatial-data-is-special/blob/master/1.%20Notebooks/Fundamentos%20de%20Cartografia%20para%20SIG%20I.ipynb): Conceitos básicos de cartografia, Sistema de Informação Geográfica (SIG/GIS), dados espaciais, projeções cartográficas, sistemas de coordenadas, modelos de representação da terra - Datum, sistema de referência de coordenadas. 
   
  * [Framework para base cartográfica em conformidade geomática](): Base inicial para todos os projetos.
  
