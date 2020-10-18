@@ -52,8 +52,8 @@
   * **[Modelagem dinâmica]**: 
   * [ESDA: Exploratory Spatial Data Analysis].
   * [Modelos de Regressão Espacial Globais]: Spatial Lag e Spatial Error
-  * [Modelos de Regressão Espacial Locais]: Regimes Espaciais e Regressão Geograficamente Ponderada (GWR)
-  * [Cluster Analysis]: LISA
+  * [Modelos de Regressão Espacial Locais]: Regimes Espaciais e Regressão Geograficamente Ponderada (GWR).
+  * [Cluster Analysis]: LISA.
   * Interpolação, Krigagem, centro médio, distância padrão, elipse de distância padrão, padrões de agregação, vizinho mais próximo, vizinhos naturais (k-means), análise de Lacunaridade, métodos de estimação de kernel e kernel adaptativo,  mapas de proximidade vs mapas de kernel, polígonos de voronoi, triangulação de Deulanay.
 
 | **Geocodificação de endereços** | 
