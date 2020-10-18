@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/PryskaS/spatial-data-is-special/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Geodata science
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PryskaS/spatial-data-is-special/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* **Fundamentos de Cartografia para SIG**
+  * Conceitos básicos de cartografia, Sistema de Informação Geográfica (SIG/GIS), dados espaciais, projeções cartográficas, sistemas de coordenadas, modelos de representação da terra - Datum, sistema de referência de coordenadas.
+* **Representação computacional do Espaço 
+  * Níveis de abstração, objetos vs campos, estrutura de dados espaciais, topologia, superposição de planos de informação.
+  * Modelagem Numérica de Terreno (MNT): Pontos cotados (z, y, z), isolinhas, malha triangular (TIN), dados altimétricos, shuttle radar topography Mission (SRTM).
+* **Manipulação de dados geográficos 
+  *  importar dados matriciais e vetoriais, unir dados espaciais, consulta e edição de atributos, modificar dados (Field Calculator), select by attribute, select by expresso, select by location, criar novas feições, remodelar feições, offset (linhas), cortar feições (split), dividir partes, mesclar feições (merge)
+* **Fonte de dados:
+  * Infraestrutura de informação espacial (SDI), padrões OGC (WMS, WFS, WCS), metadados
+* **Qualidade dos dados geoespaciais 
+  * Consistência lógica, consistência tipológica, adequação quanto ao nível de generalização cartográfica empregado.
+* **Generalização
+  * Simplicacação (building, Line, polygon), suavização (smooth), agregação (dissolve, agregaste polygons, Eliminate), fusão (merge divided roads, collapse dual lines), colapso, refinamento, 
+* **Geovizualização: 
+  * Forma espacial e modo de implementação, ideia de qualidade (distinção/diferenciação), ideia de quantidade e ordem, classes (intervalos iguais, quantil, desvio padrão, quebras naturais - jernks -, intervalo geométrico, mapas coropláticos e de símbolos proporcionais, cartogramas e cartografia temática, mapas de densidade de pontos e mapas de fluxos, geovisualização multivariada, temporal e de incerteza
+* **Análise espacial
+  * Estatística espacial vs análise espacial, Análise de eventos pontuais, análise de superfícies por geoestatística linear, análise de superfícies por geoestatística indicadora, análise de dados de área, modelagem dinâmica. Modelos de Regressão Espacial Globais: Spatial Lag e Spatial Error, Modelos de Regressão Espacial Locais: Regimes Espaciais e Regressão Geograficamente Ponderada (GWR), Cluster Analysis. Interpolação, Krigagem, centro médio, distância padrão, elipse de distância padrão, 
+Padrões de agregação, vizinho mais próximo, vizinhos naturais (k-means), função K de Ripley (univariada e bivariada), Análise de Lacunaridade, métodos de estimação de kernel e kernel adaptativo,  mapas de proximidade vs mapas de kernel, polígonos de voronoi, triangulação de Deulanay
+* **Geocodificação de endereços
+* **GeoWeb/WebGIS:
+  * Framework para Carto, Kepler, GeoWeb Crawler.
+* **Sensoriamento remoto
+  * Conceitos básicos e princípios da radiação eletromagnética, níveis de aquisição, sensores, geração de imagem, assinatura espectral x bandas, composições coloridas, resolução espacial, resolução espectral, resolução radiométrica, resolução temporal, comportamento espectral, NDVI, elementos de fotointerpretação, pré-processamento (estatísticas da imagem, transformações lineares e não-lineares), modelos de correção geométrica, mapeamento inverso, reamostragem, erro médio quadrático, qualidade dos pontos, transformações de imagens (fatiamento de histograma, IHS, alterações da componente S, componentes principais, espalhamento bi-dimensional, espalhamentos para imagens correlacionadas e não-correlacionadas, NDWI - Normalized Difference Water index, Fusão, classificação supervisionada e não-supervisionada. 
