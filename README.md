@@ -10,7 +10,7 @@
 ---
 ### Conteúdo
 
-| **Cartografia básica** |
+| **Cartografia básica** | ------------------------------------------------------------------
 
   * **[Fundamentos conceituais](https://github.com/PryskaS/spatial-data-is-special/blob/master/1.%20Notebooks/1.1%20-%20Fundamentos%20conceituais.ipynb)**: Conceitos básicos de cartografia, Sistema de Informação Geográfica (SIG/GIS), dados espaciais, projeções cartográficas, sistemas de coordenadas, modelos de representação da terra - Datum, sistema de referência de coordenadas. 
   
